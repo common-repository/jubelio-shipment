@@ -1,0 +1,393 @@
+# Copyright (C) 2023 Jubelio
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Jubelio Shipment 1.5.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/jubelio-shipment\n"
+"POT-Creation-Date: 2023-04-11T05:58:28+00:00\n"
+"PO-Revision-Date: 2023-04-11 12:59+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Domain: jubelio-shipment\n"
+
+#. Plugin Name of the plugin
+msgid "Jubelio Shipment"
+msgstr "Jubelio Shipment"
+
+#. Plugin URI of the plugin
+msgid "https://github.com/jubelio/jubelio-shipment"
+msgstr "https://github.com/jubelio/jubelio-shipment"
+
+#. Description of the plugin
+msgid ""
+"Simple and fast WooCommerce plugin with various courier options such as Grab "
+"Express, JNE, SiCepat, Paxel, and many more"
+msgstr ""
+"Plugin WooCommerce yang simpel dan cepat dengan beragam pilihan kurir "
+"seperti Grab Express, JNE, SiCepat, Paxel, dan masih banyak lagi"
+
+#. Author of the plugin
+msgid "Jubelio"
+msgstr "Jubelio"
+
+#. Author URI of the plugin
+msgid "https://github.com/jubelio"
+msgstr "https://github.com/jubelio"
+
+#: includes/classes/class-jubelioshipment-api.php:112
+#: includes/classes/class-jubelioshipment-api.php:178
+#: includes/classes/class-jubelioshipment-api.php:113
+#: includes/classes/class-jubelioshipment-api.php:170
+#: includes/classes/class-jubelioshipment-api.php:284
+#: includes/classes/class-jubelioshipment-api.php:106
+#: includes/classes/class-jubelioshipment-api.php:280
+#: includes/classes/class-jubelioshipment-api.php:422
+#: includes/classes/class-jubelioshipment-api.php:107
+#: includes/classes/class-jubelioshipment-api.php:281
+#: includes/classes/class-jubelioshipment-api.php:423
+#: includes/classes/class-jubelioshipment-api.php:108
+#: includes/classes/class-jubelioshipment-api.php:282
+#: includes/classes/class-jubelioshipment-api.php:424
+msgid "No Data Found"
+msgstr "Data Tidak Ditemukan"
+
+#: includes/classes/class-jubelioshipment-api.php:136
+#: includes/classes/class-jubelioshipment-api.php:242
+msgid "Unauthorize Request"
+msgstr "Permintaan Ditolak"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:85
+#: includes/classes/class-jubelioshipment.php:302
+#: includes/classes/class-jubelioshipment.php:306
+#: includes/classes/class-jubelioshipment.php:312
+#: includes/classes/class-jubelioshipment-shipping-method.php:86
+#: includes/classes/class-jubelioshipment.php:317
+msgid "Province, City, District and Zipcode"
+msgstr "Provinsi, Kota, Kecamatan, dan Kodepos"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:87
+#: includes/classes/class-jubelioshipment.php:308
+#: includes/classes/class-jubelioshipment.php:312
+#: includes/classes/class-jubelioshipment.php:318
+#: includes/classes/class-jubelioshipment-shipping-method.php:88
+#: includes/classes/class-jubelioshipment.php:323
+msgid "Please enter 3 or more characters"
+msgstr "Masukan 3 karakter atau lebih"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:90
+#: includes/classes/class-jubelioshipment-shipping-method.php:91
+msgid "Shipping Origin Address"
+msgstr "Alamat Pengiriman Asal"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:94
+#: includes/classes/class-jubelioshipment-shipping-method.php:95
+msgid "Shipping Origin Subdistrict"
+msgstr "Kelurahan Pengiriman Asal"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:98
+#: includes/classes/class-jubelioshipment-shipping-method.php:99
+msgid "Shipping Origin Zipcode"
+msgstr "Kodepos Pengiriman Asal"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:102
+#: includes/classes/class-jubelioshipment-shipping-method.php:103
+msgid "Shipping Origin Coordinate"
+msgstr "Koodinat Pengiriman Asal"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:107
+#: includes/classes/class-jubelioshipment-shipping-method.php:108
+msgid "Base Cart Contents Weight (gram)"
+msgstr "Berat Isi Asal (gram)"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:109
+#: includes/classes/class-jubelioshipment-shipping-method.php:110
+msgid ""
+"The base cart contents weight will be calculated. If the value is blank or "
+"zero, the couriers list will not displayed when the actual cart contents "
+"weight is empty."
+msgstr ""
+"Berat isi keranjang asal akan dihitung. Jika nilainya kosong atau nol, "
+"daftar kurir tidak akan ditampilkan saat berat isi keranjang kosong."
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:132
+#: includes/classes/class-jubelioshipment-shipping-method.php:133
+msgid "Client Id"
+msgstr "Client Id"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:140
+#: includes/classes/class-jubelioshipment-shipping-method.php:141
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:144
+#: includes/classes/class-jubelioshipment-shipping-method.php:145
+msgid "Webstore ID"
+msgstr "Webstore ID"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:146
+#: includes/classes/class-jubelioshipment-shipping-method.php:147
+msgid ""
+"Requires Webstore ID for Voucher Redemption. You can get this ID if you "
+"subscribe to Jubelio Omnichannel"
+msgstr ""
+"Membutuhkan Webstore ID untuk Penukaran Voucher. Anda bisa mendapatkan ID "
+"ini jika berlangganan Jubelio Omnichannel"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:154
+#: includes/classes/class-jubelioshipment-shipping-method.php:155
+msgid "Google API"
+msgstr "Google API"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:156
+#: includes/classes/class-jubelioshipment-shipping-method.php:157
+msgid "Requires Google API Key to use Instant service"
+msgstr "Memerlukan Google API Key untuk menggunakan layanan Instan"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:160
+#: includes/classes/class-jubelioshipment-shipping-method.php:161
+msgid "Show ETA"
+msgstr "Show ETA"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:162
+#: includes/classes/class-jubelioshipment-shipping-method.php:163
+msgid "Show Estimate Time"
+msgstr "Menampilkan Estimasi Waktu Pengiriman"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:167
+#: includes/classes/class-jubelioshipment.php:680
+#: includes/classes/class-jubelioshipment.php:678
+#: includes/classes/class-jubelioshipment.php:690
+#: includes/classes/class-jubelioshipment.php:742
+#: includes/classes/class-jubelioshipment.php:800
+#: includes/classes/class-jubelioshipment-shipping-method.php:168
+#: includes/classes/class-jubelioshipment.php:805
+msgid "Payment Voucher"
+msgstr "Voucher Pengiriman"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:170
+#: includes/classes/class-jubelioshipment-shipping-method.php:171
+msgid "Jubelio Shipment Voucher"
+msgstr "Jubelio Shipment Voucher"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:175
+#: includes/classes/class-jubelioshipment-shipping-method.php:178
+#: includes/classes/class-jubelioshipment.php:829
+#: includes/classes/class-jubelioshipment.php:827
+#: includes/classes/class-jubelioshipment.php:950
+#: includes/classes/class-jubelioshipment.php:1002
+#: includes/classes/class-jubelioshipment.php:1060
+#: includes/classes/class-jubelioshipment-shipping-method.php:176
+#: includes/classes/class-jubelioshipment-shipping-method.php:179
+#: includes/classes/class-jubelioshipment.php:1065
+msgid "Shipping Insurance"
+msgstr "Asuransi Pengiriman"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:183
+#: includes/classes/class-jubelioshipment-shipping-method.php:184
+msgid "Multi Origin"
+msgstr "Multi Origin"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:186
+#: includes/classes/class-jubelioshipment-shipping-method.php:187
+msgid ""
+"Multi Origin allows you to deliver your products from your branch store. "
+"This feature will only work if you are connected to a Jubelio Omnichannel. "
+"Warning currently this feature can only work in Jubelio Store"
+msgstr ""
+"Multi Origin memungkinkan Anda mengirimkan produk Anda dari toko cabang "
+"Anda. Fitur ini hanya akan berfungsi jika Anda terhubung ke Jubelio "
+"Omnichannel. Peringatan saat ini fitur ini hanya dapat berfungsi di Jubelio "
+"Store"
+
+#. Translators: %1$s Setting field label.
+#: includes/classes/class-jubelioshipment-shipping-method.php:302
+#: includes/classes/class-jubelioshipment-shipping-method.php:303
+msgid "%1$s is required. "
+msgstr "%1$s dibutuhkan. "
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:497
+#: includes/classes/class-jubelioshipment-shipping-method.php:510
+#: includes/classes/class-jubelioshipment-shipping-method.php:524
+#: includes/classes/class-jubelioshipment-shipping-method.php:503
+#: includes/classes/class-jubelioshipment-shipping-method.php:551
+msgid "1-2 Days"
+msgstr "1-2 Hari"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:502
+#: includes/classes/class-jubelioshipment-shipping-method.php:515
+#: includes/classes/class-jubelioshipment-shipping-method.php:529
+#: includes/classes/class-jubelioshipment-shipping-method.php:508
+#: includes/classes/class-jubelioshipment-shipping-method.php:556
+msgid "%1$s Days"
+msgstr "%1$s Hari"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:506
+#: includes/classes/class-jubelioshipment-shipping-method.php:519
+#: includes/classes/class-jubelioshipment-shipping-method.php:533
+#: includes/classes/class-jubelioshipment-shipping-method.php:512
+#: includes/classes/class-jubelioshipment-shipping-method.php:560
+msgid "1 Day"
+msgstr "1 Hari"
+
+#: includes/classes/class-jubelioshipment.php:313
+#: includes/classes/class-jubelioshipment.php:364
+#: includes/classes/class-jubelioshipment.php:511
+#: includes/classes/class-jubelioshipment.php:317
+#: includes/classes/class-jubelioshipment.php:368
+#: includes/classes/class-jubelioshipment.php:515
+#: includes/classes/class-jubelioshipment.php:391
+#: includes/classes/class-jubelioshipment.php:567
+#: includes/classes/class-jubelioshipment.php:323
+#: includes/classes/class-jubelioshipment.php:397
+#: includes/classes/class-jubelioshipment.php:627
+#: includes/classes/class-jubelioshipment.php:328
+#: includes/classes/class-jubelioshipment.php:402
+#: includes/classes/class-jubelioshipment.php:632
+msgid "Pinpoint Location"
+msgstr "Titik Lokasi Pengiriman"
+
+#: includes/classes/class-jubelioshipment.php:318
+#: includes/classes/class-jubelioshipment.php:322
+#: includes/classes/class-jubelioshipment.php:328
+#: includes/classes/class-jubelioshipment.php:333
+msgid "Click if you want to use instant courier"
+msgstr "Klik jika kamu ingin menggunakan kurir instant"
+
+#: includes/classes/class-jubelioshipment.php:332
+#: includes/classes/class-jubelioshipment.php:369
+#: includes/classes/class-jubelioshipment.php:336
+#: includes/classes/class-jubelioshipment.php:373
+#: includes/classes/class-jubelioshipment.php:337
+#: includes/classes/class-jubelioshipment.php:396
+#: includes/classes/class-jubelioshipment.php:343
+#: includes/classes/class-jubelioshipment.php:402
+#: includes/classes/class-jubelioshipment.php:348
+#: includes/classes/class-jubelioshipment.php:407
+msgid "Full Address"
+msgstr "Alamat Lengkap"
+
+#: includes/classes/class-jubelioshipment.php:476
+#: includes/classes/class-jubelioshipment.php:480
+#: includes/classes/class-jubelioshipment.php:532
+#: includes/classes/class-jubelioshipment.php:592
+#: includes/classes/class-jubelioshipment.php:597
+msgid "Weight and Dimensions must be set in the Shipping tab."
+msgstr "Berat dan Dimensi wajib diisi di Shipping tab."
+
+#: includes/classes/class-jubelioshipment.php:532
+#: includes/classes/class-jubelioshipment.php:536
+#: includes/classes/class-jubelioshipment.php:588
+#: includes/classes/class-jubelioshipment.php:648
+#: includes/classes/class-jubelioshipment.php:653
+msgid "Save"
+msgstr "Simpan"
+
+#: includes/classes/class-jubelioshipment.php:670
+#: includes/classes/class-jubelioshipment.php:668
+#: includes/classes/class-jubelioshipment.php:680
+#: includes/classes/class-jubelioshipment.php:732
+#: includes/classes/class-jubelioshipment.php:790
+#: includes/classes/class-jubelioshipment.php:795
+msgid "Activate shipping insurance"
+msgstr "Aktifkan Asuransi Pengiriman"
+
+#: includes/classes/class-jubelioshipment.php:686
+#: includes/classes/class-jubelioshipment.php:684
+#: includes/classes/class-jubelioshipment.php:696
+#: includes/classes/class-jubelioshipment.php:748
+#: includes/classes/class-jubelioshipment.php:806
+#: includes/classes/class-jubelioshipment.php:811
+msgid "Voucher Code"
+msgstr "Kode Voucher"
+
+#: includes/classes/class-jubelioshipment.php:699
+#: includes/classes/class-jubelioshipment.php:697
+#: includes/classes/class-jubelioshipment.php:709
+#: includes/classes/class-jubelioshipment.php:761
+#: includes/classes/class-jubelioshipment.php:819
+#: includes/classes/class-jubelioshipment.php:824
+msgid "Apply Voucher"
+msgstr "Terapkan Voucher"
+
+#: includes/classes/class-jubelioshipment.php:747
+#: includes/classes/class-jubelioshipment.php:745
+#: includes/classes/class-jubelioshipment.php:834
+#: includes/classes/class-jubelioshipment.php:886
+#: includes/classes/class-jubelioshipment.php:944
+#: includes/classes/class-jubelioshipment.php:949
+msgid ""
+"Voucher cannot be used. You have not set your Webstore ID yet. Please set it "
+"first."
+msgstr ""
+"Voucher tidak dapat digunakan. Kamu belum mengeset Webstore ID, harap diisi "
+"terlebih dahulu."
+
+#: includes/classes/class-jubelioshipment.php:652
+#: includes/classes/class-jubelioshipment.php:664
+#: includes/classes/class-jubelioshipment.php:716
+#: includes/classes/class-jubelioshipment.php:774
+#: includes/classes/class-jubelioshipment.php:779
+msgid ""
+"This shipment already supports Shipping Insurance. Your order can be "
+"protected from insurance for a transaction value of up to 100,000,000, with "
+"an easy claim process, through shipping in collaboration with Jubelio "
+"Shipment."
+msgstr ""
+"Pengiriman ini sudah mendukung Asuransi Pengiriman. Pesanan Anda dapat "
+"dilindungi asuransi untuk nilai transaksi hingga 100.000.000, dengan proses "
+"klaim yang mudah, melalui pengiriman yang bekerja sama dengan Jubelio "
+"Shipment."
+
+#: includes/classes/class-jubelioshipment-api.php:183
+#: includes/classes/class-jubelioshipment-api.php:435
+#: includes/classes/class-jubelioshipment-api.php:436
+#: includes/classes/class-jubelioshipment-api.php:437
+msgid "Missing authentication"
+msgstr "Gagal mengotentikasi"
+
+#: includes/classes/class-jubelioshipment.php:661
+#: includes/classes/class-jubelioshipment.php:713
+#: includes/classes/class-jubelioshipment.php:771
+#: includes/classes/class-jubelioshipment.php:776
+msgid "Information"
+msgstr "Informasi"
+
+#: includes/classes/class-jubelioshipment.php:736
+#: includes/classes/class-jubelioshipment.php:788
+#: includes/classes/class-jubelioshipment.php:846
+#: includes/classes/class-jubelioshipment.php:851
+#, fuzzy
+msgid "Select Origin Shipping Address"
+msgstr "Alamat Pengiriman Asal"
+
+#: includes/classes/class-jubelioshipment.php:743
+#: includes/classes/class-jubelioshipment.php:795
+#: includes/classes/class-jubelioshipment.php:853
+#: includes/classes/class-jubelioshipment.php:858
+#, fuzzy
+msgid "Base Origin"
+msgstr "Multi Origin"
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:485
+#: includes/classes/class-jubelioshipment-shipping-method.php:532
+msgid "Congratulations you got a shipping discount for several couriers."
+msgstr "Selamat! Kamu mendapatkan potongan ongkir untuk beberapa kurir."
+
+#: includes/classes/class-jubelioshipment.php:1205
+#: includes/classes/class-jubelioshipment.php:1223
+msgid ""
+"Sorry, the promotion is no longer available. Please refresh your cart to get "
+"the shipping price."
+msgstr ""
+"Maaf! Promosi sudah tidak tersedia. Harap lakukan refresh pada halaman cart "
+"atau checkout untuk mendapatkan harga yang sesuai."
+
+#: includes/classes/class-jubelioshipment-shipping-method.php:324
+msgid "Invalid Client ID or Client Secret"
+msgstr "Client ID atau Client Secret tidak valid"

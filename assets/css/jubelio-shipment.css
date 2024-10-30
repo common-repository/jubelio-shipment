@@ -1,0 +1,181 @@
+.popup_map, .popup_codConfirmation {
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 999999;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 0.5s ease-in-out;
+}
+
+.popup_map.show, .popup_codConfirmation.show {
+	opacity: 1;
+	visibility: visible;
+}
+
+.popup_container {
+	width: 90%;
+	background: #fff;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	position: absolute;
+	border-radius: 5px;
+}
+
+.popup_codConfirmation .popup_container {
+	width: 350px
+}
+
+.popup_header {
+	position: relative;
+}
+
+.popup_codConfirmation .popup_content {
+	text-align: center;
+  font-size: 15px;
+	color: #000
+}
+
+.popup_footer {
+	margin: 10px 0 0 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.popup_footer>* {
+	flex: 1;
+	max-width: 100%;
+	margin: 0;
+}
+
+.popup_footer #popup_save {
+	margin: 0 0 1em 0;
+}
+
+.popup_fields #search_address input {
+	padding-left: 34px;
+	margin-bottom: 0;
+	border: 0;
+}
+
+.popup_fields .maplibregl-ctrl-geocoder {
+	width: 100%;
+	max-width: 100%;
+  margin-bottom: 21px;
+}
+
+#map .maplibregl-ctrl-group button {
+	margin-bottom: 0 !Important;
+	margin-right: 0 !Important;
+}
+
+@media screen and (min-width: 1100px) {
+	.popup_container {
+		width: 55%;
+	}
+
+	.popup_footer>* {
+		flex: 0 0 30%;
+		max-width: 30%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+	/** with blocksy theme **/
+	body.theme-blocksy span.select2-container .select2-selection--single .select2-selection__rendered {
+    width: 100%;
+    max-width: 250px;
+	}
+}
+
+.popup_content {
+	padding: 15px 15px 0;
+	position: relative;
+}
+
+.popup_header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.popup_button {
+	display: block;
+	color: rgba(0, 0, 0, .5);
+	font-size: 32px;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+	position: absolute;
+	right: 0;
+	top: 0px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, .125);
+	width: 28px;
+	height: 28px;
+}
+
+.popup_map.popup_in_admin input[type="text"] {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+#billing_custom_address_field,
+#shipping_custom_address,
+._billing_address_2_field,
+._shipping_address_2_field {
+	width: 100%;
+}
+
+[for="billing_address_2"],
+[for="shipping_address_2"] {
+	opacity: 1 !important;
+	width: 100% !important;
+}
+
+[for="billing_city"],
+[for="shipping_city"] {
+	display: none !important;
+}
+
+.pac-container {
+	z-index: 999999 !important;
+}
+
+.remove_voucher_code {
+	padding: 0 5px;
+	cursor: pointer;
+}
+
+.shipping-calculator-button, .woocommerce-shipping-destination {
+	display: none !important;
+}
+
+.force_hidden {
+	display: none !important;
+}
+
+.popup_fields input {
+	width: 100% !important;
+	margin: 0 0 8px 0;
+}
+
+.admin_list_courier {
+	columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+}
+
+#billing_pinpoint_location_field span.description{
+	margin-top: -12px;
+	display: inline-block !important;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
